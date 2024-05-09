@@ -10,8 +10,8 @@ In the project's local setup, we use:
 
 # Detailed steps
 1. Setup your environment:
-    a) `mkdir nameoftheproject` (wherever you want to save the project)
-    b) `cd nameoftheproject` (positioning in the rootfolder)
+    * `mkdir nameoftheproject` (wherever you want to save the project)
+    * `cd nameoftheproject` (positioning in the rootfolder)
     * `mkdir frontend backend` (creating subfolders for front- and backend)
     * in each subfolder:
         * `npm init -y`
