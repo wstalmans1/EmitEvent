@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/wimstalmans/Documents/Coding/Learning/alchemyuniversity/EmitEvent_referencelearningproject/back/contracts/EmitWinner.sol": {
+      "lastModificationDate": 1715239522189,
+      "contentHash": "34396f49060a8dc9ebb08cce5a80e420",
+      "sourceName": "contracts/EmitWinner.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "EmitWinner"
+      ]
+    },
+    "/Users/wimstalmans/Documents/Coding/Learning/alchemyuniversity/EmitEvent_referencelearningproject/back/contracts/ActivateWinner.sol": {
+      "lastModificationDate": 1715240240549,
+      "contentHash": "8be977dfe27d04e390ef2e59615901e3",
+      "sourceName": "contracts/ActivateWinner.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "ActivateWinner",
+        "IEmitWinner"
+      ]
+    }
+  }
+}
