@@ -77,7 +77,7 @@ references: https://hardhat.org/hardhat-runner/docs/getting-started
 
 ===========================================================
 
-ps: the original assignment comes from Alchemy University, Smart Contract Basics, Week 4 Assignment, "Smart Contract Winner":
+ps: the original assignment comes from Alchemy University, Smart Contract Basics, Week 4 Assignment, "Smart Contract Winner" (https://university.alchemy.com/course/ethereum/md/639a4cc4033c9b0004051a69):
 
 "
 Ready to be a winner?
