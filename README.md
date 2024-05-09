@@ -47,17 +47,17 @@ In the project's local setup, we use:
                 };
             </details>
 2. Write, compile & deploy your smart contracts:        
-    * `mkdir contracts` + `touch emitWinner.sol` + `touch activateWinner.sol` + write the smart contracts (cfr files themselves for the solidity code)
+    * `mkdir contracts` + `touch EmitWinner.sol` + `touch ActivateWinner.sol` + write the smart contracts (cfr files themselves for the solidity code)
         * `npx hardhat compile`
-    * `mkdir ignition/modules` + `touch emitWinner2.js` + `touch activateWinner2.js` + insert deployment scripts (cfr files themselves for the code)
-        * `npx hardhat ignition deploy ./ignition/modules/emitWinner2.js --network sepolia --verify`
-        * `npx hardhat ignition deploy ./ignition/modules/activateWinner2.js --network sepolia --verify`
+    * `mkdir ignition/modules` + `touch EmitWinnerDeploy.js` + `touch ActivateWinnerDeploy.js` + insert deployment scripts (cfr files themselves for the code)
+        * `npx hardhat ignition deploy ./ignition/modules/EmitWinnerDeploy.js --network sepolia --verify`
+        * `npx hardhat ignition deploy ./ignition/modules/ActivateWinnerDeploy.js --network sepolia --verify`
             * `npx hardhat ignition verify chain-11155111` (if you have an existing deployment)
             * see https://hardhat.org/ignition/docs/guides/verify for mor on verifying contracts
 3. Write & run your scripts:        
-    * `mkdir scripts`+ `touch activateWinner2.js` + insert script (cfr file itself to see the code)
-        * in case you would like to interact directly with the emitWinner smart contract: `touch emitWinner2.js`and insert the script (cfr file itself for the code)
-    * `npx hardhat run ./scripts/activateWinner2.js --network sepolia`
+    * `mkdir scripts`+ `touch ActivateWinnerScript.js` + insert script (cfr file itself to see the code)
+        * in case you would like to interact directly with the emitWinner smart contract: `touch EmitWinnerScript.js`and insert the script (cfr file itself for the code)
+    * `npx hardhat run ./scripts/ActivateWinnerScript.js --network sepolia`
 4. setup Github (optional):
     * `touch README.md` (in the rootfolder)
     * `git init` (in the rootfolder)
