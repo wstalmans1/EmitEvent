@@ -47,7 +47,7 @@ In the project's local setup, we use:
                 };
             </details>
 2. Write, compile & deploy your smart contracts:        
-    * `mkdir contracts` + `touch emitWinner2.sol` + `touch activateWinner2.sol` + write the smart contracts (cfr files themselves for the solidity code)
+    * `mkdir contracts` + `touch emitWinner.sol` + `touch activateWinner.sol` + write the smart contracts (cfr files themselves for the solidity code)
         * `npx hardhat compile`
     * `mkdir ignition/modules` + `touch emitWinner2.js` + `touch activateWinner2.js` + insert deployment scripts (cfr files themselves for the code)
         * `npx hardhat ignition deploy ./ignition/modules/emitWinner2.js --network sepolia --verify`
